@@ -1,9 +1,9 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: #44a390;
+    background-color: #546E7A;
 }
-#form{
+#form, .form-main3{
     position: relative;
 }
 /* Images section begins */
@@ -17,6 +17,7 @@
     left: 300px;
     top: 70px;
     z-index: 1;
+    background-color: transparent;
    
 }
 .Unsplash {
@@ -24,15 +25,33 @@
     left: 200px;
     height: 600px;
     width: 300px;
-    object-fit: cover;
-    
+    object-fit: cover;    
 }
-
+/* Images section Ends */
 
 /* form-main begins */
-.form-right-main {
+.form-right-main {    
     position: absolute;
     left: 50%;
     top: 100px;
-
+}
+/* #form-right-main-id{
+    background-color: #f0f8ff;
+} */
+.form-P1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+.form-P2 {
+    margin: 20px 0 50px 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-style: italic;
+}
+.form-P3 {
+    margin: 10px 0 20px 10px;
+}
+.form-right {
+    position: absolute;
+    right: 20px;
 }
