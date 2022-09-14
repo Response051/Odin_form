@@ -53,19 +53,30 @@
 }
 .form-right {
     position: absolute;
-    right: 50px; 
+    right: 50px;
+
+}
+.form-left{
+    position: relative;
+    top: 50px;
 }
 #form-left-id1 {
     margin: 0 0 20px 0;
+    
 }
 
 /* button session Begins */
 .form-button {
-    margin: 50px 0 20px 0;   
+    margin: 100px 0 20px 0;   
 }
 button {
     padding: 5px 30px;
     background-color: #4CAF50;
-    color: #FAFAFA;
+    color: #ffffff;
     border-radius: 5px;
+    transition: 0.3s;
+    transform: background-color ;
+}
+button:hover{
+    background-color: burlywood ;
 }
